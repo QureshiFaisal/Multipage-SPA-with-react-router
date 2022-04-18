@@ -1,10 +1,10 @@
 import { Fragment, useEffect } from "react";
 import { useParams, Route, Link, useRouteMatch } from "react-router-dom";
 
-import HighlightedQuote from "../components/quotes/HighlightedQuote";
+import HighlightedQuote from "../../components/quotes/HighlightedQuote";
 import Comments from "../comments/Comments";
-import useHttp from "../hooks/use-http";
-import { getSingleQuote } from "../lib/api";
+import useHttp from "../../hooks/use-http";
+import { getSingleQuote } from "../../lib/api";
 import LoadingSpinner from "../UI/LoadingSpinner";
 
 const QuoteDetail = () => {
